@@ -1,0 +1,16 @@
+.like-button,
+.comment-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.like-button__icon,
+.comment-button__icon {
+    width: 20px;
+    height: 20px;
+}
